@@ -1,12 +1,23 @@
 html{
     font-size: 62.5%;
 }
-    body{
+
+body{
         font-family: 'Turred Road' sans-serif;
     background-color: black;
     color: white;
     font-size: 16px;
 }
+
+.contenedor{
+    width: 75%;
+    margin: auto;
+}
+
+.bg-secundario{
+    color: darkmagenta;
+}
+
 h1{
     color: white;
     text-align: center;
@@ -21,9 +32,11 @@ h3{
     color: white;
     font-size: 1.8rem;
 }
+
 span{
     color: rgb(108, 13, 163);
 }
+
 .titulo{
     color: crimson;
     font-size: 3.8rem;
@@ -33,7 +46,15 @@ span{
     color: darkmagenta;
     font-size: 2rem;
 }
+
 p{
     font-size: 2.6rem;
     font-weight: 400;
+}
+
+.navegacion-principal{
+    background-color: blueviolet;
+}
+.navegacion-principal a{
+    color: white;
 }
