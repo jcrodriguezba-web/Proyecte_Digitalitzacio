@@ -62,7 +62,19 @@ p{
 
 .navegacion-principal{
     background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
 }
 .navegacion-principal a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem 1rem 1rem 1rem;
     color: white;
+}
+.navegacion-principal a:hover{
+    color: darkmagenta;
+    background-color: crimson;
 }
