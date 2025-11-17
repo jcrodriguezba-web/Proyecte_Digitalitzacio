@@ -18,6 +18,7 @@ body{
 }
 
 .contenedor{
+    background-color: blueviolet;
     width: 75%;
     margin: auto;
 }
@@ -82,4 +83,13 @@ p{
 .navegacion-principal a:hover{
     color: darkmagenta;
     background-color: crimson;
+}
+.hero{
+    background-image: url('../img/hero768.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+}
+.contenido-hero{
+    color: white;
 }
