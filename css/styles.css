@@ -20,11 +20,27 @@ fieldset{
     border: none;
 }
 .contenedor{
+    color:black;
     background-color: blueviolet;
-    width: 75%;
+    width: 100%;
     margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
-
+.contenedor a{
+    color:black;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    display: inline;
+    font-weight: 700;
+    padding: 1rem;
+}
+.contenedor a:hover{
+    color: darkmagenta;
+    background-color: crimson;
+}
 .bg-secundario{
     color: darkmagenta;
 }
@@ -84,7 +100,7 @@ p{
 .navegacion-principal{
     background-color: blueviolet;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 @media (min-weidth: 768px) {
     .navegacion-principal{
@@ -124,7 +140,7 @@ p{
     justify-content: center;
 }
 .informacion{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
 }
 .micontenido{
