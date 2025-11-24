@@ -4,7 +4,7 @@
     --blanco: #ffffff;
     --oscuro: darkmagenta;
     --gris:grey;
-    --tamañofuente: 16px; /*video 9, min 4:22*/
+    --tamañofuente: 16px;
 }
 html{
     font-size: 62.5%;
@@ -16,7 +16,9 @@ body{
     color: white;
     font-size: 16px;
 }
-
+fieldset{
+    border: none;
+}
 .contenedor{
     background-color: blueviolet;
     width: 75%;
@@ -132,6 +134,14 @@ p{
     justify-content: center;
     padding: 1rem 1rem 1rem 1rem;
 }
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
 @media (min-width:768px){
     .micontenido{
         flex-direction: row;
@@ -145,4 +155,42 @@ p{
     font-size: 1.5rem;
     line-height: 2;
     text-align: center;
+}
+.icono{
+    width: 15rem;
+    height: 15rem;
+    background-color:blueviolet;
+    border-radius: 50%;
+    display: flex;justify-content: center;
+    align-items: center;
+    color: white;
+    }
+.formulario{
+        background-color: darkmagenta;
+        width: min(60rem,100%);
+        margin: 0 auto;
+        padding: 2rem;
+        border-radius: 2rem;
+}
+.formulario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: blueviolet;
+}
+.campo{
+    margin-bottom: 1rem;
+}
+.campo label{
+    color: darkmagenta;
+    font-weight: bold;
+    display: block;
+    margin-bottom: .5rem;
+}
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: .5rem;
 }
