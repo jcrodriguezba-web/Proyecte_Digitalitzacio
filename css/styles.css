@@ -41,6 +41,11 @@ fieldset{
     color: darkmagenta;
     background-color: crimson;
 }
+@media (min-weidth: 768px) {
+    .contenedor{
+        flex-direction: row;
+    }
+}
 .bg-secundario{
     color: darkmagenta;
 }
@@ -70,11 +75,12 @@ h1{
     font-weight: 600;
 }
 h2{
-    color: white;
+    text-align: center ;
+    color: black;
     font-size: 2.5rem;
 }
 h3{
-    color: white;
+    color: black;
     font-size: 1.8rem;
 }
 
@@ -91,40 +97,19 @@ span{
     color: darkmagenta;
     font-size: 2rem;
 }
-
+.pcolor{
+    color: black;
+}
 p{
     font-size: 2.6rem;
     font-weight: 400;
-}
-
-.navegacion-principal{
-    background-color: blueviolet;
-    display: flex;
-    justify-content: space-between;
-}
-@media (min-weidth: 768px) {
-    .navegacion-principal{
-        flex-direction: row;
-    }
-}
-.navegacion-principal a{
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 700;
-    padding: 1rem 1rem 1rem 1rem;
-    color: white;
-}
-.navegacion-principal a:hover{
-    color: darkmagenta;
-    background-color: crimson;
 }
 .hero{
     background-image: url('../img/hero768.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 45rem;
+    position: relative;
 }
 .contenido-hero{
     background-color: rgb(0, 0, 0, 0,6);
